@@ -1,0 +1,94 @@
+/*Resetting the browser default size*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin: 10px 0;
+    color: rgb(122, 192, 233) ;
+
+
+}
+
+body{
+    font-family: Arial;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+.select-sect{
+    background: rgb(61, 42, 165);
+    padding: 12px 20px;
+}
+
+#search{
+    width: 100%;
+    padding: 10px;
+}
+p{
+    border: 1px solid #dddddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px;  
+}
+#listsect{
+     margin-top: 10px;
+    
+}
+
+
+   
+
+
+li{
+    border: 1px solid #dddddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+li:hover{
+    background-color:#eeeeee;
+}
+.headband{
+    float: right;}
+   
+   
+ .userhead{
+        color: rgb(122, 192, 233);
+        font-size: large;
+        font-weight: 500;
+     }
+
+ .username{
+    float: right;
+    background-color: darkblue;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+@media(min-width: 1000px) {
+    body{
+        width: 50%;
+    }
+} 
+
